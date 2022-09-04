@@ -31,7 +31,9 @@ input[type="text"] {
     background-color: #8388E533;
     text-align: end;
     width: 100%;
-    color: #d2d2d2;
+    -webkit-text-stroke: 1.5px black;
+    -webkit-text-fill-color: #d2d2d2;
+    border-radius: 1vw;
     border: 0px;
     font-size: 4rem;
 }

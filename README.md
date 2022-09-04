@@ -12,4 +12,4 @@ The [background image](https://unsplash.com/photos/4CcZK19ViNM) by Mahdi Bafande
 Here's my finished product: ![screenshot](https://github.com/JoleneKearse/simple-calculator/blob/main/screenshots/my_version.png).
 
 
-Check out the [live version]() here!  Suggestions welcome!
+Check out the [live version](https://simple-calculator-by-jolene.netlify.app/) here!  Suggestions welcome!

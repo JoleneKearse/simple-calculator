@@ -7,11 +7,13 @@
 }
 
 body {
-    background-color: #333333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
+    background-image: url("images/background-desktop.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    font-size: 10px;
 }
 
 body,
@@ -22,11 +24,11 @@ html {
 
 button {
     cursor: pointer;
-    border: 0px;
+    border: none;
 }
 
 input[type="text"] {
-    background-color: transparent;
+    background-color: #8388E533;
     text-align: end;
     width: 100%;
     color: #d2d2d2;
@@ -35,17 +37,17 @@ input[type="text"] {
 }
 
 #main {
-    border: 2px solid #ededed;
-    border-radius: 50px;
+    border: 2px solid #51f8f7;
+    border-radius: 3vw;
     width: 100%;
     max-width: 280px;
-    background-color: #000000;
+    background-color: #BFFCFB1a;
     padding: 2rem 1rem;
 }
 
 .calc_header {
-    margin-top: 90px;
-    padding: 12px;
+    margin-top: 5vh;
+    padding: 1rem;
 }
 
 .calc_footer > * + * {
@@ -70,7 +72,7 @@ input[type="text"] {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    color: #ffffff;
+    color: #010a0f;
     font-size: 20px;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
@@ -89,27 +91,27 @@ input[type="text"] {
     color: #f69906;
 }
 
-.btn-grey {
-    background-color: #9f9f9f;
+.btn-operations {
+    background-color: #00BFBFe6;
     color: #000;
 }
 
-.btn-grey:hover {
-    background-color: #ededed;
+.btn-operations:hover {
+    background-color: #009898e6;
 }
 
-.btn-dark-grey {
-    background-color: #313131;
+.btn-number {
+    background-color: #32B3FFe6;
 }
 
-.btn-dark-grey:hover {
-    background-color: #999999;
+.btn-number:hover {
+    background-color: #0E8FDBE6;
 }
 
-.btn-orange {
-    background-color: #f69906;
+.btn-operator {
+    background-color: #51f8f7e6;
 }
 
-.btn-orange:hover {
-    background-color: orange;
+.btn-operator:hover {
+    background-color: #40c4c4e6;
 }
